@@ -54,6 +54,8 @@
 \usepackage{indentfirst}		  % Indenta o primeiro parágrafo de cada seção
 \usepackage{color}
 \usepackage{longtable,ltcaption} % para as tabelas
+\usepackage{mathtools}
+
 
 \usepackage[table]{xcolor}% Controle das cores
 \usepackage{graphicx}

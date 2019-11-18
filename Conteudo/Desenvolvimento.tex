@@ -43,8 +43,12 @@ Objetiva-se o alcance de \textbf{120 alunos} participantes efetivos no programa,
 \newpage
 \section{Questionário para análise de Campo}
 
-A pesquisa será desenvolvida com caráter descritivo, uma vez que busca analisar o potencial do comportamento empreendedor e a competências Empreendedoras, dos acadêmicos dos cursos de graduação em Ciências Agrárias inscritos no Programa Empreenda AGRO Sustentávely, utilizando como fator indutor para melhoria o programa de extensão Empreenda Agro Sustentável a partir do modelo \textit{Global University Entrepreneurial Spirit Students’ Survey} (GUESSS), conhecido nacionalmente por Estudo GUESSS. Esta ferramenta de estudo busca caracterizar o espírito, as atividades e as intenções empreendedores de estudantes universitários, de todos os níveis de estudo e em todos os cursos universitários, bem como as condições de ensino e apoio a atividades empreendedoras. 
+A utilização de um método de pesquisa em uma dissertação depende da escolha de um modelo mais adequado ao problema da pesquisa e os objetivos pretendidos.
 
+Desta forma esta pesquisa será desenvolvida com caráter descritivo tendo como base o método de pesquisa \textit{Survey} descritivo, uma vez que este método busca contribui para o conhecimento geral de uma área particular de interesse, pois envolve uma coleção de informações de indivíduos por meio de questionários e entrevistas sobre suas atividades ou sobre si mesmos \cite{forza_survey_2002}.
+
+
+Assim, esta pesquisa utilizará de um Survey descritivo para analisar o potencial do comportamento empreendedor e a competências Empreendedoras, dos acadêmicos dos cursos de graduação em Ciências Agrárias inscritos no Programa Empreenda AGRO Sustentável, utilizando como fator indutor para melhoria o programa de extensão Empreenda Agro Sustentável a partir do modelo \textit{Global University Entrepreneurial Spirit Students’ Survey} (GUESSS), conhecido nacionalmente por Estudo GUESSS. Esta ferramenta de estudo busca caracterizar o espírito, as atividades e as intenções empreendedores de estudantes universitários, de todos os níveis de estudo e em todos os cursos universitários, bem como as condições de ensino e apoio a atividades empreendedoras. 
 
 
 
@@ -58,8 +62,8 @@ O terceiro bloco e composto por 7 questões que analisam a intenção empreended
 
 O Quarto bloco retrata a intenção em ter sua própria empresa ou ser autônomo e por fim o Quinto bloco contendo 11 questões abordará a ligação da família e o apoio familiar no empreendedorismo, tendo como alternativas partido do “Discordo totalmente” a “Concordo totalmente”. 
 
-Esta pesquisa apresenta uma população de 1.453 discentes dos cursos de graduação nas áreas de agrárias da Universidade Federal de Sergipe (UFS): Engenharia Agronômica, Engenharia Agrícola, Zootecnia, Engenharia Florestal, Medicina Veterinária e Engenharia de Pesca, dados contidos no relatório estatístico de matriculas 2017 da instituição, \cite{campelo_ufs_2018}. É importante levar em conta que este estudo não levou em consideração classe social local de estudo anterior, e desempenho acadêmico do aluno durante a graduação. 
-A amostra compreenderá 120 discentes que participarem do Programa Empreenda Agro Sustentável que responderão os questionários instrumento de pesquisa que serão aplicados durante os Workshops. Tais Workshops ocorrerão nos meses de agosto, outubro e novembro de 2019. Tal instrumento será aplicado presencialmente. O estudo caracteriza-se como uma pesquisa de levantamento ou \textit{Survey} do tipo Descritivo sob corte Longitudinal, que segundo \citeonline{tormen_potencial_2005} destaca-se por compreender uma amostra expressiva em relação ao universo pesquisado na Figura \ref{figura_1} é possível compreender as fases de uma pesquisa tipo \textit{Survey}.
+O universo desta pesquisa é composto por 1.453 discentes dos cursos de graduação nas áreas de agrárias da Universidade Federal de Sergipe (UFS): Engenharia Agronômica, Engenharia Agrícola, Zootecnia, Engenharia Florestal, Medicina Veterinária e Engenharia de Pesca, dados contidos no relatório estatístico de matriculas 2017 da instituição, \cite{campelo_ufs_2018}. É importante levar em conta que este estudo não levou em consideração classe social local de estudo anterior, e desempenho acadêmico do aluno durante a graduação. 
+A amostra compreenderá 120 discentes que participarem do Programa Empreenda Agro Sustentável que responderão os questionários instrumento de pesquisa que serão aplicados durante os Workshops. Tais Workshops ocorrerão nos meses de agosto, outubro e novembro de 2019. Tal instrumento será aplicado presencialmente. O estudo caracteriza-se como uma pesquisa de levantamento ou \textit{Survey} do tipo Descritivo sob corte Longitudinal, que segundo \citeonline{tormen_potencial_2005} destaca-se por compreender uma amostra expressiva em relação ao universo pesquisado. Na Figura \ref{figura_1} é possível compreender as fases da tendo como critério a pesquisa tipo \textit{Survey}.
 
 \begin{figure}[!htb]
 \centering
@@ -69,14 +73,24 @@ A amostra compreenderá 120 discentes que participarem do Programa Empreenda Agr
 \label{figura_1}
 \end{figure}
 
-
 \clearpage
 
 
 %estatística
 \section{Análises Estatísticas}
 
-Para o processamento dos dados será utilizado o Software Rstudio \cite{rstudio_team_rstudio:_2015}. A avaliação da normalidade dos dados utilizado será analisada através do teste de Normalidade kolmogorov-smirnov (K-S) a (p> 0,05),  \cite{da_cunha_nascimento_testes_2017}. Caso os resultados apresentem distribuição normal, será utilizado o teste paramétrico de hipótese ANOVA com nível de significância de 0,05.
+
+Os dados serão tratados, inicialmente, por uma análise de distribuição por meio do teste de
+Kolmogorov-Smirnov (p >0,05). Tendo as informações das distribuições dos dados será utilizado uma análise fatorial e análise de variância multivariada. O processamento dos dados será utilizado o Software Rstudio \cite{rstudio_team_rstudio:_2015}.  Tais variáveis serão preparadas com o uso da análise fatorial exploratória (AFE) com rotação VARIMAX de fator único para se aglutinar em valores únicos os dados obtidos com diferentes itens de escala do questionário e se calcular valores de regressão \cite{hair_multivariate_2006}.
+
+
+A Análise de Variância Multivariada (MANOVA) é uma técnica estatística analisa independentemente grupos distintos de amostras buscando avaliar as difenrenças entre as medias por grupos.
+A MANOVA tem por objetivo verificar diferenças de grupos de variáveis categóricas (independentes) quanto aos seus impactos sobre diversas variáveis métricas (dependentes) em paralelo  \cite{hair_alise_2009}. 
+Este teste aplica-se a esta pesquisa pois ela tem por objetivo avaliar as alterações quanto ao perfil empreendedor em grupos de alunos participantes do Programa de extensão Empreenda Agro Sustentável. Desse modo, é possível avaliar se as diferenças entre os níveis médios dos grupos captados pela \textit{}{survey} são significativas entre os grupos e dentro dos grupos \cite{rocha_avaliacao_2014}. A hipótese nula aqui apresentada será utilizada para condução deste experimento. Com a rejeição desta, a hipótese alternativa é comprovada \ \cite{hair_alise_2009}.
+
+\textbf{H0 (1):} Não há diferença entre as médias das medidas que averíguam o perfil empreendedor entre os alunos participantes do Programa de extensão Empreenda Agro Sustentável.
+
+
 
 
 \begin{landscape}
