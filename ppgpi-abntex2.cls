@@ -55,8 +55,7 @@
 \usepackage{color}
 \usepackage{longtable,ltcaption} % para as tabelas
 \usepackage{mathtools}
-
-
+\usepackage[pdftex]{hyperref}
 \usepackage[table]{xcolor}% Controle das cores
 \usepackage{graphicx}
  \usepackage{array}
