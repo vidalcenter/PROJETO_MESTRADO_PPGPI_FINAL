@@ -56,9 +56,8 @@
 \usepackage{longtable,ltcaption} % para as tabelas
 \usepackage{mathtools}
 \usepackage[pdftex]{hyperref}
-\usepackage[table]{xcolor}% Controle das cores
 \usepackage{graphicx}
- \usepackage{array}
+\usepackage{array}
 % Inclusão de gráficos
 \usepackage{microtype}			  % para melhorias de justificação
 \usepackage[brazilian,hyperpageref]{backref}
@@ -66,15 +65,18 @@
 \usepackage{pdfpages}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{parskip}			  % espaçamento entre os parágrafos
-\usepackage{xcolor}
 \usepackage{pdfpages}
-
 \usepackage{url}                  % deve ser carregado para tratar url de forma correta e usado pelo abntex2cite
 \usepackage{breakurl}             % trata de forma correta a quebra de url entre linhas
 \usepackage{listings, lstautogobble}
 \usepackage{lipsum}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{multirow}
+ \definecolor{lightgray}{gray}{0.9}
 
 
+
+% LATEX and plain TEX\usetikzlibrary[mindmap] % ConTEXt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PACOTES POR TIPO DE DOCUMENTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
