@@ -52,6 +52,7 @@
 \usepackage[T1]{fontenc}		  % Selecao de codigos de fonte
 \usepackage{lastpage}			  % Usado pela Ficha catalográfica
 \usepackage{indentfirst}		  % Indenta o primeiro parágrafo de cada seção
+\usepackage{multicol}   %Multicolunas
 \usepackage{color}
 \usepackage{longtable,ltcaption} % para as tabelas
 \usepackage{mathtools}
@@ -422,3 +423,4 @@
 	\cleardoublepage
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
