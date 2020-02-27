@@ -54,8 +54,7 @@
 \usepackage{indentfirst}		  % Indenta o primeiro parágrafo de cada seção
 \usepackage{multicol}   %Multicolunas
 \usepackage{color}
-\usepackage{subfigure}
-\usepackage{longtable,ltcaption} % para as tabelas
+\usepackage{subfigure} % para as tabelas
 \usepackage{mathtools}
 \usepackage[pdftex]{hyperref}
 \usepackage{graphicx}
@@ -75,7 +74,8 @@
 \usepackage{lipsum}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{multirow}
- \definecolor{lightgray}{gray}{0.9}
+\definecolor{lightgray}{gray}{0.9}
+\usepackage{multirow}
 
 
 
