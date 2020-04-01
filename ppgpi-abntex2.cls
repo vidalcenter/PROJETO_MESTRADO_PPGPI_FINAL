@@ -41,6 +41,8 @@
 %% PACOTES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{cmap}                 % Mapear caracteres especiais no PDF
+\usepackage{placeins}
+\usepackage{float}
 \usepackage[utf8]{inputenc}       % Codificacao do documento
 \usepackage{lastpage}             % Para total de páginas
 \usepackage{pdflscape}
