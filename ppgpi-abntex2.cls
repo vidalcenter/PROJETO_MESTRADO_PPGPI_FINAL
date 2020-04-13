@@ -49,6 +49,13 @@
 \usepackage{pgfgantt}
 \usepackage{newtxtext, newtxmath} % Usa a fonte Times New Roman
 \renewcommand{\ABNTEXchapterfont}{\rmfamily\bfseries}
+
+\usepackage[lofdepth,lotdepth]{subfig}
+\usepackage{graphicx}
+\usepackage[lofdepth,lotdepth]{subfigure}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage[T1]{fontenc}		  % Selecao de codigos de fonte
@@ -56,10 +63,9 @@
 \usepackage{indentfirst}		  % Indenta o primeiro parágrafo de cada seção
 \usepackage{multicol}   %Multicolunas
 \usepackage{color}
-\usepackage{subfigure} % para as tabelas
+%\usepackage{subfig} % para as tabelas
 \usepackage{mathtools}
 \usepackage[pdftex]{hyperref}
-\usepackage{graphicx}
 \usepackage{array}
 \usepackage{multirow}
 % Inclusão de gráficos
@@ -251,7 +257,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % O tamanho do parágrafo é dado por:
-\setlength{\parindent}{1.3cm}
+\setlength{\parindent}{1.5cm}
 
 % Controle do espaçamento entre um parágrafo e outro:
 \setlength{\parskip}{0.2cm}  % tente também \onelineskip
