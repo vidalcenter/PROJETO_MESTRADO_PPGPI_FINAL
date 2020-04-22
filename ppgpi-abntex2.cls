@@ -245,7 +245,7 @@
 		pdfauthorr={\imprimirautorr},
 		pdfsubject={\imprimircurso},
 		pdfcreator={\imprimirorientador},
-		pdfkeywords={abnTeX2, DCOMP, Universidade Federal de Sergipe},
+		pdfkeywords={abnTeX2, LABES, Universidade Federal de Sergipe},
 	}
 	
 	\makeatother 
