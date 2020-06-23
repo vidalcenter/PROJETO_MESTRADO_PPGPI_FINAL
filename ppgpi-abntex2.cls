@@ -44,12 +44,14 @@
 \usepackage{placeins}
 \usepackage{float}
 \usepackage[utf8]{inputenc}       % Codificacao do documento
-\usepackage{lastpage}             % Para total de páginas
+\usepackage{lastpage}  
+\usepackage[utf8]{inputenc}
+% Para total de páginas
 \usepackage{pdflscape}
 \usepackage{pgfgantt}
 \usepackage{newtxtext, newtxmath} % Usa a fonte Times New Roman
 \renewcommand{\ABNTEXchapterfont}{\rmfamily\bfseries}
-
+\usepackage{soulutf8}
 \usepackage[lofdepth,lotdepth]{subfig}
 \usepackage{graphicx}
 \usepackage[lofdepth,lotdepth]{subfigure}
@@ -71,7 +73,8 @@
 % Inclusão de gráficos
 \usepackage{microtype}			  % para melhorias de justificação
 \usepackage[brazilian,hyperpageref]{backref}
-\usepackage[alf]{abntex2cite}	  % Citações padrão ABNT
+\usepackage[alf]{abntex2cite}
+% Citações padrão ABNT
 \usepackage{pdfpages}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{parskip}			  % espaçamento entre os parágrafos
