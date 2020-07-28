@@ -45,7 +45,6 @@
 \usepackage{float}
 \usepackage[utf8]{inputenc}       % Codificacao do documento
 \usepackage{lastpage}  
-\usepackage[utf8]{inputenc}
 % Para total de páginas
 \usepackage{pdflscape}
 \usepackage{pgfgantt}
