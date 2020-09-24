@@ -6,7 +6,7 @@ Classe que adapta o pacote abntex2 para as normas do Departamento de Computaçã
 
 Estão disponiveis os seguintes arquivos para download:
 - dcomp-abntex2.cls         `Pacote com as regras gerais do template`
-- Graduacao.sty             `Estilo de formatação para os Trabalhos de conslusão de curso`
+- Graduacao.sty             `Estilo de formatação para os Trabalhos de conclusão de curso`
 - Mestrado.sty              `Estilo de formatação para as Dissertações de Mestrado`
 
 - Modelo-Mestrado-PROCC.tex `Modelo para as Dissertações de Mestrado`
@@ -48,6 +48,7 @@ Lista mínima de pacotes a serem instalados em distribuições Ubuntu/Mint linux
 * texlive-font-utils
 
 ## Ambiente de desenvolvimento
+
 1. Linux
   * Instalar os pacotes listados anteriormente
   * Escolher uma IDE para latex ou usar um editor de texto simples e compilar o texto com o Makefile que vem no projeto
