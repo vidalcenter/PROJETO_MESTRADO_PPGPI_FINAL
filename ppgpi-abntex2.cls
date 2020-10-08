@@ -67,7 +67,7 @@
 %\usepackage{subfig} % para as tabelas
 \usepackage{mathtools}
 \usepackage[pdftex]{hyperref}
-\usepackage{array}
+%\usepackage{array}
 \usepackage{multirow}
 % Inclusão de gráficos
 \usepackage{microtype}			  % para melhorias de justificação
